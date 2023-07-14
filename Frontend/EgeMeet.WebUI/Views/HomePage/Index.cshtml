@@ -1,0 +1,41 @@
+﻿@model List<HomePageViewvModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Ana Sayafa Düzenleme</h4>
+            <p class="card-description">
+                Bu Sayfa Ana Sayfada ki yazıları değiştirir <code>Dikkat!</code>
+            </p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Başlık</th>
+                            <th>Açıklama</th>
+                            <th>Güncelle</th>
+                          
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            
+                        <tr>
+                            <td>@item.Title</td>
+                            <td>@item.Description</td>
+                                <td><a href="/HomePage/UpdateHome/@item.Homeid" class="btn btn-inverse-warning btn-fw">Güncelle</a></td>
+
+                        </tr>
+                        }
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+@await Html.PartialAsync("/Views/AdminLayout/_HeaderLayout.cshtml")
+<body>
+    <div class="container-scroller">
+        <!-- partial:~/star-admin2-free-admin-template-main/template/partials/_navbar.html -->
+        @await Html.PartialAsync("/Views/AdminLayout/_NavBarLayout.cshtml")
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:~/star-admin2-free-admin-template-main/template/partials/_settings-panel.html -->
+         
+            <!-- partial -->
+            <!-- partial:~/star-admin2-free-admin-template-main/template/partials/_sidebar.html -->
+            @await Html.PartialAsync("/Views/AdminLayout/_SideBarLayout.cshtml")
+            <!-- partial -->
+           @RenderBody()
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    @await Html.PartialAsync("/Views/AdminLayout/_ScriptLayout.cshtml")
+</body>
+
+</html>
+

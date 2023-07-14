@@ -1,0 +1,53 @@
+﻿@model List<HowToUsViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-10 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Nasıl Çalışır Sayfası DÜznelme</h4>
+            <p class="card-description">
+                Nasıl Çalışır Sayfasını Düzenler <code>Dikkat!</code>
+            </p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Başlık</th>
+                            <th>İcon</th>
+                            <th>İcon Başlık</th>
+                            <th>İcon Açıklama</th>
+                            <th>Güncelle</th>
+                            <th>Sil</th>
+                           
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+
+                            <tr>
+                                <td>@item.Title</td>
+                                <td>@item.İcon</td>
+                                <td>@item.smailltitle</td>
+                                <td>@item.Description.Substring(0, Math.Min(@item.Description.Length, 20))...</td>
+
+                                <td><a href="/HowToUs/UpdateHowToUs/@item.HowToUsid" class="btn btn-inverse-warning btn-fw">Güncelle</a></td>
+                                <td><a href="/HowToUs/DeleteHowToUs/@item.HowToUsid" class="btn btn-inverse-danger btn-fw">Sil</a></td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                    <br />
+                    <br />
+                    <td><a href="/HowToUs/AddHowToUs/" class="btn btn-inverse-primary btn-fw">Ekle</a></td>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

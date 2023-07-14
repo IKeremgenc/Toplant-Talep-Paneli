@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+@await Component.InvokeAsync("_HeaderPartial")
+
+<body>
+
+
+    <!-- navigation -->
+    <section class="fixed-top navigation">
+        @await Component.InvokeAsync("_NavBarPartial")
+    </section>
+    <!-- /navigation -->
+    <!-- hero area -->
+    @await Component.InvokeAsync("HomePagePartial")
+    <!-- /hero-area -->
+    <!-- feature -->
+    @await Component.InvokeAsync("HowToUs")
+    <!-- /feature -->
+  
+    <!-- footer -->
+     @await Component.InvokeAsync("_FooterPartial")
+    <!-- /footer -->
+    <!-- jQuery -->
+    <script src="~/dtox-1.0.0/plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="~/dtox-1.0.0/plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="~/dtox-1.0.0/plugins/slick/slick.min.js"></script>
+    <!-- venobox -->
+    <script src="~/dtox-1.0.0/plugins/Venobox/venobox.min.js"></script>
+    <!-- aos -->
+    <script src="~/dtox-1.0.0/plugins/aos/aos.js"></script>
+    <!-- Main Script -->
+    <script src="~/dtox-1.0.0/js/script.js"></script>
+
+</body>
+</html>

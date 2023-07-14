@@ -1,0 +1,25 @@
+﻿@model AddHowToUsViewModel
+@{
+    ViewData["Title"] = "AddHowToUs";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+<form method="post">
+<label> Nasıl Çalışır Başlık</label>
+<input type="text" asp-for="Title" class="form-control" />
+<span asp-validation-for="Title" class="text-danger"></span>
+<br />
+<label>İCON</label>
+<input type="text" asp-for="İcon" class="form-control" />
+<span asp-validation-for="İcon" class="text-danger"></span>
+<br />
+<label>İcon Başlık</label>
+<input type="text" asp-for="smailltitle" class="form-control" />
+<span asp-validation-for="smailltitle" class="text-danger"></span>
+<br />
+<label>İcon Açıklama</label>
+<input type="text" asp-for="Description" class="form-control" />
+<span asp-validation-for="Description" class="text-danger"></span>
+
+    <button class="btn btn-inverse-success btn-fw">Ekle</button>
+</form>
+

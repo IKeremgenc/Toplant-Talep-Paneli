@@ -1,0 +1,85 @@
+﻿@model List<MeetingDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="row flex-grow">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card card-rounded">
+            <div class="card-body">
+                <div class="d-sm-flex justify-content-between align-items-start">
+                    <div>
+                        <h4 class="card-title card-title-dash">Toplantı Talepleri</h4>
+                      
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn-lg text-white mb-0 me-0" type="button"><i class="mdi mdi-account-plus"></i>Toplantı Oluştur</button>
+                    </div>
+                </div>
+                <div class="table-responsive  mt-1">
+                    <table class="table select-table">
+                        <thead>
+                            <tr>
+                               
+                                <th>Adı-Soyadı</th>
+                                <th>Toplantı Konusu</th>
+                                <th>Açıklama</th>
+                                <th>Toplantı Tarihi</th>
+                                <th>Durumu</th>
+                                <th>Onayla</th>
+                                <th>Toplantı Tarihi Değiştir</th>
+                                <th>Toplantı İptal Et</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                
+                           
+                            <tr>
+                           
+                                <td>
+                                    <div class="d-flex ">
+                                        
+                                        <div>
+                                            <h6>@item.Name</h6>
+                                            <p>@item.Surname</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h6>@item.MeetingDescription</h6>
+                                   
+                                </td>
+                                    <td>
+                                        <h6>@item.Description.Substring(0, Math.Min(@item.Description.Length, 10))...</h6>
+
+                                    </td>
+                                    <td>
+                                        <h6>@item.MeetingDate.ToString("dd MMMM yyyy, HH:mm")</h6>
+
+                                    </td>
+                             @if (item.Statues==true)
+                                    {
+                                        <td><div class="badge badge-opacity-success">Onaylandı</div></td>
+                                        
+                                    }
+                                    @if (item.Statues == false)
+                                    {
+                                        <td><div class="badge badge-opacity-warning">Onay Bekliyor</div></td>
+
+                                    }
+                                    <td><a href="/MeetingController/Meetingapproved/@item.Meetingid" class="btn btn-inverse-success btn-fw">Onayla</a></td>
+                                    <td><a href="/Meetings/UpdateMeeting/@item.Meetingid" class="btn btn-inverse-primary btn-fw">Değiştir</a></td>
+                                    <td><a href="/Meetings/DeleteMeeting/@item.Meetingid" class="btn btn-inverse-danger btn-fw">İptal Et</a></td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,55 @@
+﻿   <!-- container-scroller -->
+<!-- plugins:js -->
+<script src="~/star-admin2-free-admin-template-main/template/vendors/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page -->
+<script src="~/star-admin2-free-admin-template-main/template/vendors/typeahead.js/typeahead.bundle.min.js"></script>
+<script src="~/star-admin2-free-admin-template-main/template/vendors/select2/select2.min.js"></script>
+<script src="~/star-admin2-free-admin-template-main/template/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+<!-- End plugin js for this page -->
+<!-- inject:js -->
+<script src="~/star-admin2-free-admin-template-main/template/js/off-canvas.js"></script>
+<script src="~/star-admin2-free-admin-template-main/template/js/hoverable-collapse.js"></script>
+<script src="~/star-admin2-free-admin-template-main/template/js/template.js"></script>
+<script src="~/star-admin2-free-admin-template-main/template/js/settings.js"></script>
+<script src="~/star-admin2-free-admin-template-main/template/js/todolist.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="~/star-admin2-free-admin-template-main/template/js/file-upload.js"></script>
+<script src="~/star-admin2-free-admin-template-main/template/js/typeahead.js"></script>
+<script src="~/star-admin2-free-admin-template-main/template/js/select2.js"></script>
+<script src="~/js/jquery.datatables.min.js"></script>
+<script src="~/js/datatables.buttons.min.js"></script>
+<script src="~/js/jszip.min.js"></script>
+<script src="~/js/pdfmake.min.js"></script>
+<script src="~/js/vfs_fonts.js"></script>
+<script src="~/js/buttons.html5.min.js"></script>
+<script src="~/js/buttons.print.min.js"></script>
+<script>
+    new DataTable('#example', {
+        initComplete: function () {
+            this.api()
+                .columns()
+                .every(function () {
+                    let column = this;
+                    let title = column.footer().textContent;
+
+                    // Create input element
+                    let input = document.createElement('input');
+                    input.placeholder = title;
+                    column.footer().replaceChildren(input);
+
+                    // Event listener for user input
+                    input.addEventListener('keyup', () => {
+                        if (column.search() !== this.value) {
+                            column.search(input.value).draw();
+                        }
+                    });
+                });
+        }
+    });
+ 
+   </script>
+  
+   
+<!-- End custom js for this page-->

@@ -1,0 +1,241 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\sneat-1.0.0\.vscode\extensions.json" />
+    <Content Include="wwwroot\sneat-1.0.0\.vscode\settings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\sneat-1.0.0\.vscode\anchor-comments.code-snippets" />
+    <None Include="wwwroot\sneat-1.0.0\.vscode\vue-ts.code-snippets" />
+    <None Include="wwwroot\sneat-1.0.0\.vscode\vue.code-snippets" />
+    <None Include="wwwroot\sneat-1.0.0\.vscode\vuetify.code-snippets" />
+    <None Include="wwwroot\sneat-1.0.0\.editorconfig" />
+    <None Include="wwwroot\sneat-1.0.0\.eslintrc.js" />
+    <None Include="wwwroot\sneat-1.0.0\.gitignore" />
+    <None Include="wwwroot\sneat-1.0.0\auto-imports.d.ts" />
+    <None Include="wwwroot\sneat-1.0.0\components.d.ts" />
+    <None Include="wwwroot\sneat-1.0.0\index.html" />
+    <None Include="wwwroot\sneat-1.0.0\public\favicon.ico" />
+    <None Include="wwwroot\sneat-1.0.0\public\loader.css" />
+    <None Include="wwwroot\sneat-1.0.0\README.md" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\components\cards\CardStatisticsHorizontal.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\components\cards\CardStatisticsVertical.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\components\cards\CardStatisticsWithImages.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\components\MoreBtn.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\components\ThemeSwitcher.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\libs\apex-chart\apexCharConfig.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\libs\vuetify\_index.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\libs\vuetify\_overrides.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\libs\vuetify\_variables.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\libs\_perfect-scrollbar.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\placeholders\_default-layout-vertical-nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\placeholders\_default-layout.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\placeholders\_index.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\placeholders\_misc.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\placeholders\_nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\placeholders\_vertical-nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_components.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_dark.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_default-layout-w-vertical-nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_default-layout.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_index.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_layouts.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_misc.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_mixins.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_utilities.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_utils.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_variables.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\base\_vertical-nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\index.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\libs\apex-chart.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\libs\full-calendar.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\libs\vuetify\index.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\libs\vuetify\_overrides.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\libs\vuetify\_variables.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\pages\misc.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\pages\page-auth.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\placeholders\_default-layout-vertical-nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\placeholders\_index.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\placeholders\_nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\placeholders\_vertical-nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\_components.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\_dark.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\_default-layout-w-vertical-nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\_utils.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\_variables.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\scss\template\_vertical-nav.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\utils\formatters.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40core\utils\index.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40iconify\build-icons.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\components\TransitionExpand.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\components\VerticalNav.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\components\VerticalNavLayout.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\components\VerticalNavLink.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\components\VerticalNavSectionTitle.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\styles\index.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\styles\_classes.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\styles\_default-layout.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\styles\_global.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\styles\_mixins.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\styles\_placeholders.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\styles\_rtl.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\styles\_variables.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\%40layouts\utils.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\App.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-1.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-10.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-11.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-12.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-13.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-14.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-15.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-2.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-3.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-4.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-5.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-6.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-7.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-8.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\avatars\avatar-9.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\chart-info.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\chart-success.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\credit-card-primary.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\credit-card-success.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\credit-card-warning.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\illustration-john-dark.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\illustration-john-light.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\paypal-error.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\wallet-info.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\cards\wallet-primary.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\eCommerce\2.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\iconify-svg\checked-checkbox.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\iconify-svg\checked-radio.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\iconify-svg\indeterminate-checkbox.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\iconify-svg\javascript.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\iconify-svg\typescript.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\iconify-svg\unchecked-checkbox.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\iconify-svg\unchecked-radio.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\flags\australia.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\flags\belgium.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\flags\brazil.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\flags\china.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\flags\france.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\flags\india.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\flags\usa.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\brave.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\cent.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\chrome.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\edge.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\firefox.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\linux.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\mac.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\opera.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\safari.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\ubuntu.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\icons\logo\windows.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\logo.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\misc\triangle-dark.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\misc\triangle-light.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pages\1.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pages\2.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pages\3.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pages\404.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pages\5.jpg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pages\6.jpg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pages\pose-fs-9.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pro\upgrade-banner-dark.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\pro\upgrade-banner-light.png" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\svg\discord.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\svg\gift.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\svg\keyboard.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\svg\laptop.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\svg\lightbulb.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\svg\paypal.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\assets\images\svg\rocket.svg" />
+    <None Include="wwwroot\sneat-1.0.0\src\components\ErrorHeader.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\components\UpgradeToPro.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\layouts\blank.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\layouts\components\DefaultLayoutWithVerticalNav.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\layouts\components\Footer.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\layouts\components\NavbarThemeSwitcher.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\layouts\components\UserProfile.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\layouts\default.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\main.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\account-settings.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\cards.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\dashboard.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\form-layouts.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\icons.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\login.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\register.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\tables.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\typography.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\pages\[...all].vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\plugins\vuetify\defaults.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\plugins\vuetify\icons.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\plugins\vuetify\index.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\plugins\vuetify\theme.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\plugins\webfontloader.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\router\index.js" />
+    <None Include="wwwroot\sneat-1.0.0\src\styles\styles.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\styles\variables\_template.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\styles\variables\_vuetify.scss" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\dashboard\AnalyticsCongratulations.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\dashboard\AnalyticsFinanceTab.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\dashboard\AnalyticsOrder.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\dashboard\AnalyticsOrderStatistics.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\dashboard\AnalyticsProfitReport.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\dashboard\AnalyticsRevenue.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\dashboard\AnalyticsTotalRevenue.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\dashboard\AnalyticsTransactions.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\account-settings\AccountSettingsAccount.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\account-settings\AccountSettingsNotification.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\account-settings\AccountSettingsSecurity.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\authentication\AuthProvider.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\cards\card-basic\CardBasic.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\cards\card-basic\CardNavigation.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\cards\card-basic\CardSolid.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\form-layouts\DemoFormLayoutHorizontalForm.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\form-layouts\DemoFormLayoutHorizontalFormWithIcons.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\form-layouts\DemoFormLayoutMultipleColumn.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\form-layouts\DemoFormLayoutVerticalForm.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\form-layouts\DemoFormLayoutVerticalFormWithIcons.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\tables\DemoSimpleTableBasics.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\tables\DemoSimpleTableDensity.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\tables\DemoSimpleTableFixedHeader.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\tables\DemoSimpleTableHeight.vue" />
+    <None Include="wwwroot\sneat-1.0.0\src\views\pages\tables\DemoSimpleTableTheme.vue" />
+    <None Include="wwwroot\sneat-1.0.0\vite.config.js" />
+    <None Include="wwwroot\sneat-1.0.0\vue.config.js" />
+    <None Include="wwwroot\sneat-1.0.0\yarn.lock" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ApiConsume\EgeMeet.DataAcsseslayer\EgeMeet.DataAcsseslayer.csproj" />
+    <ProjectReference Include="..\..\ApiConsume\EgeMeet.EntityLayer\EgeMeet.EntityLayer.csproj" />
+  </ItemGroup>
+
+</Project>
